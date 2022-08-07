@@ -1,4 +1,4 @@
-# Repositorio del Landing Page del proyecto easyCloud para el curso de Aplicaciones Web
+# Repositorio del Landing Page del proyecto EasyCloud
 
 Link: <https://www.easycloud.ga/>
 
