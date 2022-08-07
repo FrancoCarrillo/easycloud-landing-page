@@ -1,7 +1,5 @@
 # Repositorio del Landing Page del proyecto EasyCloud
 
-Link: <https://www.easycloud.ga/>
-
 | Integrantes | Codigo | Usuario |
 |---|---|---|
 | Adrian Marquina Vichino | u202017487 | Cobollatin |
