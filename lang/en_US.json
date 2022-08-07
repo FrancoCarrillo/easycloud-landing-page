@@ -1,0 +1,54 @@
+{
+  "locale": "en_US",
+  "app-title": "EasyCloud",
+  "app-description": "Compare the cost of different providers of cloud services with EasyCloud, your application that helps you to save money and time.",
+  "app-login": "Log In",
+  "app-register": "Sign Up",
+  "app-call-to-action": "Start Now",
+  "app-features": {
+    "save-your-quotes": {
+      "title": "SAVE YOUR QUOTES",
+      "description": "You can save all your quotes and view them at any time and place."
+    },
+    "simultaneously-quote": {
+      "title": "SIMULTANEOUSLY QUOTE",
+      "description": "Quote your cloud providers services simultaneously."
+    },
+    "main-cloud-services": {
+      "title": "MAIN CLOUD SERVICES",
+      "description": "You can choose from virtual machines, databases or serverless computing."
+    }
+  },
+  "app-providers": {
+    "title-providers": "The best cloud providers in one application"
+  },
+
+  "app-pricing": {
+    "title-pricing": "Choose your plan",
+    "free-card": {
+      "title": "FREE",
+      "description": "You can only compare with three providers"
+    },
+    "professional-card": {
+      "title": "PROFESSIONAL",
+      "description": "You can compare with all our providers\n$50 per month"
+    },
+    "business-card": {
+      "title": "BUSINESS",
+      "description-1": "We will be intermediaries between you and the providers.",
+      "description-2": "Exclusive offers\n$100 per month "
+    }
+  },
+  "app-contact": {
+    "send": "Start free",
+    "title": "Compare your favorite cloud providers with an EasyCloud free account"
+  },
+
+  "app-abouttheproduct": {
+    "title-abouttheproduct": "About the Product."
+  },
+
+  "app-abouttheteam": {
+    "title-abouttheteam": "About the Team."
+  }
+}

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="EasyCloud Landing Page." />
+    <meta name="author" content="ImpactIT" />
+    <meta name="copyright" content="ImpactIT" />
+    <link rel="shortcut icon" href="./media/logo.png" />
+    <!-- Fonts -->
+    <link href="./CSS/Fonts.css" rel="stylesheet" />
+    <!-- Bootstrap CSS -->
+    <link href="./CSS/bootstrap-5.1.3/bootstrap.min.css" rel="stylesheet" />
+    <!-- Styles -->
+    <link href="./CSS/Styles.css" rel="stylesheet" />
+    <title data-i18n-key="app-title">easyCloud</title>
+  </head>
+  <body>
+    <nav
+      id="navbar"
+      class="navbar navbar-expand-md navbar-black sticky-top bg-white"
+    >
+      <div class="container-fluid">
+        <div class="start">
+          <a class="navbar-brand text-dark" href="#">
+            <img src="./media/logo.png" class="img-fluid" alt="EasyCloud Logo" />
+            <span data-i18n-key="app-title"></span>
+          </a>
+        </div>
+        <div class="end">
+          <div class="navbar-collapse end" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <select
+                  title="locale"
+                  data-i18n-switcher
+                  class="locale-switcher"
+                  aria-label="Select language"
+                >
+                  <option value="en_US">English</option>
+                  <option value="es_419">Español</option>
+                </select>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <section id="start" class="hero">
+      <div class="container-fluid bg-white hero__wrapper">
+        <div class="hero__content">
+          <h1 data-i18n-key="app-description" class="hero__title"></h1>
+          <a href="https://app.easycloud.ga/login/">
+          <button
+            title="hero"
+            data-i18n-key="app-call-to-action"
+            class="btn btn-call-to-action"
+          ></button>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="features">
+      <div class="cards-container">
+        <div class="card">
+          <img
+            src="./media/Icons/save.svg"
+            class="card-img-top"
+            alt="save quotes"
+          />
+          <div class="card-body">
+            <h5
+              data-i18n-key="app-features.save-your-quotes.title"
+              class="card-title"
+            ></h5>
+            <p
+              data-i18n-key="app-features.save-your-quotes.description"
+              class="card-text"
+            ></p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./media/Icons/benefits_layer.svg"
+            class="card-img-top"
+            alt="layer icon"
+          />
+          <div class="card-body">
+            <h5
+              data-i18n-key="app-features.simultaneously-quote.title"
+              class="card-title"
+            ></h5>
+            <p
+              data-i18n-key="app-features.simultaneously-quote.description"
+              class="card-text"
+            ></p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./media/Icons/benefits_report.svg"
+            class="card-img-top"
+            alt="report icon"
+          />
+          <div class="card-body">
+            <h5
+              data-i18n-key="app-features.main-cloud-services.title"
+              class="card-title"
+            ></h5>
+            <p
+              data-i18n-key="app-features.main-cloud-services.description"
+              class="card-text n3card"
+            ></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="providers">
+      <h2 data-i18n-key="app-providers.title-providers"></h2>
+      <div class="providers-img">
+        <div class="p-jpg">
+          <img alt="azure" src="./media/Pictures/azure.jpg" id="azure" />
+        </div>
+        <div class="p-jpg">
+          <img
+            alt="googleCloud"
+            src="./media/Pictures/googleCloud.jpg"
+            id="google"
+          />
+        </div>
+        <div class="p-jpg">
+          <img alt="IBM" src="./media/Pictures/IBM.png" id="ibm" />
+        </div>
+        <div class="p-jpg">
+          <img alt="aws" src="./media/Pictures/aws.png" id="aws" />
+        </div>
+        <div class="p-jpg">
+          <img
+            alt="oracleCloud"
+            src="./media/Pictures/oracleCloud.jpg"
+            id="oracle"
+          />
+        </div>
+        <div class="p-jpg">
+          <img alt="alibaba" src="./media/Pictures/alibaba.jpg" id="alibaba" />
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <h2 data-i18n-key="app-pricing.title-pricing"></h2>
+      <div class="price-content">
+        <div class="free-card">
+          <div class="upper-card">
+            <img alt="free-add" src="./media/Icons/add.svg" id="free-add" aria-label="expandir o contraer seccion"/>
+            <h3 data-i18n-key="app-pricing.free-card.title"></h3>
+            <h4>$0</h4>
+          </div>
+          <div class="below-card" id="container-free">
+            <ul>
+              <li data-i18n-key="app-pricing.free-card.description"></li>
+            </ul>
+          </div>
+        </div>
+        <div class="professional-card">
+          <div class="upper-card">
+            <img
+              alt="professional-add"
+              src="./media/Icons/add.svg"
+              id="professional-add"
+              aria-label="expandir o contraer seccion"
+            />
+            <h3 data-i18n-key="app-pricing.professional-card.title"></h3>
+            <h4>$50</h4>
+          </div>
+          <div class="below-card" id="container-professional">
+            <ul>
+              <li
+                data-i18n-key="app-pricing.professional-card.description"
+              ></li>
+            </ul>
+          </div>
+        </div>
+        <div class="business-card">
+          <div class="upper-card">
+            <img
+              alt="business-add"
+              src="./media/Icons/add.svg"
+              id="business-add"
+              aria-label="expandir o contraer seccion"
+            />
+            <h3 data-i18n-key="app-pricing.business-card.title"></h3>
+            <h4>$100</h4>
+          </div>
+          <div class="below-card" id="container-business">
+            <ul>
+              <li data-i18n-key="app-pricing.business-card.description-1"></li>
+              <li
+                class="hola"
+                data-i18n-key="app-pricing.business-card.description-2"
+              ></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="abouttheproduct">
+      <h2 data-i18n-key="app-abouttheproduct.title-abouttheproduct"></h2>
+      <div>
+        <iframe width="840" height="472" src="https://www.youtube.com/embed/sVyQA4OMW84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
+    <section id="abouttheteam">
+      <h2 data-i18n-key="app-abouttheteam.title-abouttheteam"></h2>
+      <div>
+        <iframe width="840" height="472" src="https://www.youtube.com/embed/2vmeTJZjHIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container-fluid contact-banner form">
+        <h1 data-i18n-key="app-contact.title" class="contact-title"></h1>
+        <a href="https://app.easycloud.ga/login/">
+          <button
+                  title="send"
+                  data-i18n-key="app-contact.send"
+                  class="btn-contact-send"
+          ></button
+          ></a>
+      </div>
+    </section>
+
+
+    <footer id="footer">
+      <div
+        class="container-fluid text-center text-dark fw-bolder fs-5 bg-white"
+        aria-label="Ultima actualizacion"
+      >
+        ©2022 Impact IT
+      </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="./JS/bootstrap-5.1.3/bootstrap.min.js"></script>
+    <!-- Scripts -->
+    <script src="./JS/Scripts.js"></script>
+  </body>
+</html>

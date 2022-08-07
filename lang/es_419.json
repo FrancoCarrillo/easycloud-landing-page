@@ -1,0 +1,53 @@
+{
+  "locale": "es_419",
+  "app-title": "EasyCloud",
+  "app-description": "Compara los costos de diferentes proveedores de servicios en la nube con EasyCloud, tu aplicación que te ayuda a ahorrar dinero y tiempo.",
+  "app-login": "Iniciar sesión",
+  "app-register": "Registrarse",
+  "app-call-to-action": "Empezar ahora",
+  "app-features": {
+    "save-your-quotes": {
+      "title": "GUARDA TUS COTIZACIONES",
+      "description": "Podrás guardar tus cotizaciones y acceder a ellas en cualquier momento."
+    },
+    "simultaneously-quote": {
+      "title": "COTIZA SIMULTÁNEAMENTE",
+      "description": "Cotiza en diferentes proveedores simultáneamente."
+    },
+    "main-cloud-services": {
+      "title": "PRINCIPALES SERVICIOS DE LA NUBE",
+      "description": "Podrás escoger entre maquinas virtuales, bases de datos y computación serverless."
+    }
+  },
+  "app-providers": {
+    "title-providers": "Los mejores proveedores cloud en una sola aplicación"
+  },
+  "app-pricing": {
+    "title-pricing": "Elige tu plan",
+    "free-card": {
+      "title": "GRATIS",
+      "description": "Comparación con tres proveedores."
+    },
+    "professional-card": {
+      "title": "PROFESIONAL",
+      "description": "Comparación con todos nuestros proveedores.\n$50 por mes"
+    },
+    "business-card": {
+      "title": "EMPRESAS",
+      "description-1": "Intermediamos entre ustedes y los proveedores.",
+      "description-2": "Ofertas exclusivas. \n$100 por mes"
+    }
+  },
+  "app-contact": {
+    "send": "Empezar gratis",
+    "title": "Compara tus proveedores de nube favoritos con una cuenta gratuita de EasyCloud"
+  },
+
+  "app-abouttheproduct": {
+    "title-abouttheproduct": "Acerca del Producto."
+  },
+
+  "app-abouttheteam": {
+    "title-abouttheteam": "Acerca del Equipo."
+  }
+}
